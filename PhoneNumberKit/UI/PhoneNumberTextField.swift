@@ -10,9 +10,10 @@
 
 import Foundation
 import UIKit
+import SkyFloatingLabelTextField
 
 /// Custom text field that formats phone numbers
-open class PhoneNumberTextField: UITextField, UITextFieldDelegate {
+open class PhoneNumberTextField: SkyFloatingLabelTextField, UITextFieldDelegate {
     public let phoneNumberKit: PhoneNumberKit
 
     public lazy var flagButton = UIButton()

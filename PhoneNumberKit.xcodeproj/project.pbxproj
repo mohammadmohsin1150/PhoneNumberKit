@@ -42,6 +42,7 @@
 		34FD5D2B1D55F7AE00F328F9 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34FD5D2C1D55F7AE00F328F9 /* PhoneNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D14267D238F5842002DD197 /* CountryCodePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D14267C238F5842002DD197 /* CountryCodePickerViewController.swift */; };
+		9956EF4F7459358D5DA2FEE9 /* Pods_PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AD01FF6DEF897F3DFC818F /* Pods_PhoneNumberKit.framework */; };
 		A863BC9B23801ABC00088460 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = A863BC9923801ABC00088460 /* PhoneNumberMetadata.json */; };
 		A863BC9C23801ABC00088460 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = A863BC9923801ABC00088460 /* PhoneNumberMetadata.json */; };
 		A863BC9D23801ABC00088460 /* PhoneNumberMetadata.json in Resources */ = {isa = PBXBuildFile; fileRef = A863BC9923801ABC00088460 /* PhoneNumberMetadata.json */; };
@@ -96,6 +97,8 @@
 /* Begin PBXFileReference section */
 		11C2EF381D62BC3200052D44 /* NSRegularExpression+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Swift.swift"; sourceTree = "<group>"; };
 		1B0651161E2AD698006AE849 /* PhoneNumberFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberFormatter.swift; sourceTree = "<group>"; };
+		2C7EFD69DB049E965F095B50 /* Pods-PhoneNumberKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberKit.debug.xcconfig"; path = "Target Support Files/Pods-PhoneNumberKit/Pods-PhoneNumberKit.debug.xcconfig"; sourceTree = "<group>"; };
+		30AD01FF6DEF897F3DFC818F /* Pods_PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3417BD6A2210AC4900477EE7 /* MetadataParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataParsing.swift; sourceTree = "<group>"; };
 		3420CF5D1BE8959F00FAE34F /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		3422D9B91BE6A2D500867D02 /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 		C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberKit.h; sourceTree = "<group>"; };
 		C6DF6CCC1D1B18B000259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D81F812348025700B75AB7 /* PhoneNumberTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextFieldTests.swift; sourceTree = "<group>"; };
+		EEDBF86CAF36A80C1B29CC45 /* Pods-PhoneNumberKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneNumberKit.release.xcconfig"; path = "Target Support Files/Pods-PhoneNumberKit/Pods-PhoneNumberKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,7 @@
 			files = (
 				34AA66041BDD448B00467912 /* CoreTelephony.framework in Frameworks */,
 				347209901BB80A69004DE6DA /* Foundation.framework in Frameworks */,
+				9956EF4F7459358D5DA2FEE9 /* Pods_PhoneNumberKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +200,8 @@
 				342418661BB6E5A000EE70E7 /* PhoneNumberKit */,
 				342418721BB6E5A000EE70E7 /* PhoneNumberKitTests */,
 				342418651BB6E5A000EE70E7 /* Products */,
+				B9684C835A6113DD0A699A5E /* Pods */,
+				AD4A0A691ED3B8AB0E909247 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +263,24 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AD4A0A691ED3B8AB0E909247 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30AD01FF6DEF897F3DFC818F /* Pods_PhoneNumberKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9684C835A6113DD0A699A5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C7EFD69DB049E965F095B50 /* Pods-PhoneNumberKit.debug.xcconfig */,
+				EEDBF86CAF36A80C1B29CC45 /* Pods-PhoneNumberKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -298,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 342418781BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
 			buildPhases = (
+				7E793406925B0A54B16C1099 /* [CP] Check Pods Manifest.lock */,
 				3424185F1BB6E5A000EE70E7 /* Sources */,
 				342418601BB6E5A000EE70E7 /* Frameworks */,
 				342418611BB6E5A000EE70E7 /* Headers */,
@@ -480,6 +506,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E793406925B0A54B16C1099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneNumberKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3424185F1BB6E5A000EE70E7 /* Sources */ = {
@@ -712,6 +763,7 @@
 		};
 		342418791BB6E5A000EE70E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7EFD69DB049E965F095B50 /* Pods-PhoneNumberKit.debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -734,6 +786,7 @@
 		};
 		3424187A1BB6E5A000EE70E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDBF86CAF36A80C1B29CC45 /* Pods-PhoneNumberKit.release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
